@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Biodata — Nama Anda</title>
+  <link rel="stylesheet" href="Rafly.css" />
+</head>
+<body>
+  <div class="wrap">
+
+    <aside class="side card">
+      <div class="profile">
+        <img class="avatar" src="images/profil.jpg" alt="Foto Profil" />
+        <div class="name">Rafly Prayoga</div>
+        <div class="role">Mahasiswa Universitas Tarumanagara</div>
+      </div>
+
+      <div class="info">
+        <div class="info-row"><span>Domisili</span><div class="chip">Sukabumi, Indonesia</div></div>
+        <div class="info-row"><span>Email</span><div class="chip">rafly.535240004@stu.untar.ac.id</div></div>
+        <div class="info-row"><span>Telepon</span><div class="chip">+62 857-2280-3219</div></div>
+        <div class="info-row"><span>Tanggal Lahir</span><div class="chip">24 Mei 2005</div></div>
+        <div class="info-row"><span>Status</span><div class="chip">Mahasiswa Aktif</div></div>
+      </div>
+
+      <div class="social">
+        <a class="btn" href="https://github.com/raflyprayoga" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn" href="https://www.instagram.com/_rxzfly/" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </aside>
+
+    <main class="main">
+      <section class="section card about">
+        <h2>Tentang Saya</h2>
+        <div class="divider"></div>
+        <p>
+          Saya adalah mahasiswa dengan minat di pengembangan web dan jaringan komputer.
+          Terbiasa menggunakan HTML/CSS, JavaScript, Flutter.
+        </p>
+      </section>
+
+      <section class="section card">
+        <h2>Keterampilan</h2>
+        <div class="divider"></div>
+        <div class="skills">
+          <div class="tag">HTML5 / CSS3</div>
+          <div class="tag">JavaScript</div>
+          <div class="tag">Flutter</div>
+          <div class="tag">Git & GitHub</div>
+        </div>
+      </section>
+
+      <section class="section card">
+        <h2>Pendidikan</h2>
+        <div class="divider"></div>
+        <div class="timeline">
+          <div class="item">
+            <h3>Universitas Tarumanagara — S1 Informatika</h3>
+            <div class="meta">2024 – Sekarang | Jakarta</div>
+            <p>Fokus pada web programing, dan pengembangan aplikasi mobile.</p>
+          </div>
+          <div class="item">
+            <h3>SMA Contoh — IPA</h3>
+            <div class="meta">2022 – 2024 | Jakarta</div>
+            <p>Aktif di ekstrakurikuler PASKIBRA </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section card">
+        <h2>Proyek</h2>
+        <div class="divider"></div>
+        <div class="grid">
+          <div class="card-sm">
+            <h4>Menu Makanan (Flutter)</h4>
+            <p>Aplikasi katalog makanan dengan keranjang belanja untuk tugas UTS.</p>
+          </div>
+          <div class="card-sm">
+            <h4>Portfolio Web</h4>
+            <p>Website statis HTML/CSS dengan desain modern untuk tugas individu pertama.</p>
+          </div>
+          <div class="card-sm">
+            <h4>Web Pesanan Tiket</h4>
+            <p>Website sederhana yang mengikuti Traveloka untuk tugas UAS.</p>
+          </div>
+        </div>
+      </section>
+</body>
+</html>
